@@ -17,19 +17,20 @@ import Development from "./Development"
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-          <Route index element={<Home />} />
-          <Route path="Iterative-Design" element={<Knowtex />} />
-          <Route path="Responsive-Redesign" element={<ResponsiveRedesign />} />
-          <Route path="Personas-Storyboarding" element={<Personas/>} />
-          <Route path="Development" element={<Development/>} />
-          {/* <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
-        {/* </Route> */}
-      </Routes>
-    </BrowserRouter>
+    <Home/>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Home />}/>
+    //       <Route index element={<Home />} />
+    //       <Route path="Iterative-Design" element={<Knowtex />} />
+    //       <Route path="Responsive-Redesign" element={<ResponsiveRedesign />} />
+    //       <Route path="Personas-Storyboarding" element={<Personas/>} />
+    //       <Route path="Development" element={<Development/>} />
+    //       {/* <Route path="contact" element={<Contact />} />
+    //       <Route path="*" element={<NoPage />} /> */}
+    //     {/* </Route> */}
+    //   </Routes>
+    // </BrowserRouter>
     // <div>
     // <NavBar/>
     // <div class="about">
