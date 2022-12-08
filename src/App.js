@@ -17,10 +17,10 @@ import Development from "./Development"
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />}/>
-          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Home />} />
           <Route exact path="/Iterative-Design" element={<Knowtex />} />
           <Route exact path="/Responsive-Redesign" element={<ResponsiveRedesign />} />
           <Route exact path="/Personas-Storyboarding" element={<Personas/>} />
@@ -29,7 +29,7 @@ function App() {
           <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
     // <div>
     // <NavBar/>
     // <div class="about">
