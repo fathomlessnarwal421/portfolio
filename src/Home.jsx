@@ -18,7 +18,7 @@ function Home() {
     <div class="grid-container">
     <div class="grid-item">
 
-<PortfolioItem url={"/Iterative-Design"} name={"Iterative Design"} photo={"assets/knowtex.png"}/>
+<PortfolioItem url={"/Iterative-Design"} name={"Iterative Design"} photo={process.env.PUBLIC_URL+"assets/knowtex.png"}/>
 </div>
       <div class="grid-item">
         <PortfolioItem url={"/Responsive-Redesign"} name={"Responsive Redesign"} photo={"assets/booksonsquare.png"}/>
