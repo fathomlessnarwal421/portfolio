@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.css';
 import PortfolioItem from './PortfolioItem';
-import {Routes, Route, HashRouter} from 'react-router-dom';
+import {Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
 import Knowtex from "./Knowtex"
 import Home from "./Home"
 import ResponsiveRedesign from './ResponsiveRedesign';
@@ -17,19 +17,19 @@ import Development from "./Development"
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}/>
-          <Route index element={<Home />} />
-          <Route path="Iterative-Design" element={<Knowtex />} />
-          <Route path="Responsive-Redesign" element={<ResponsiveRedesign />} />
-          <Route path="Personas-Storyboarding" element={<Personas/>} />
-          <Route path="Development" element={<Development/>} />
+        <Route exact path="/" element={<Home />}/>
+          {/* <Route index element={<Home />} /> */}
+          <Route exact path="/Iterative-Design" element={<Knowtex />} />
+          <Route exact path="/Responsive-Redesign" element={<ResponsiveRedesign />} />
+          <Route exact path="/Personas-Storyboarding" element={<Personas/>} />
+          <Route exact path="/Development" element={<Development/>} />
           {/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
     // <div>
     // <NavBar/>
     // <div class="about">
