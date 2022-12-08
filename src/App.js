@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.css';
 import PortfolioItem from './PortfolioItem';
-import {Routes, Route, useNavigate, BrowserRouter} from 'react-router-dom';
+import {Routes, Route, HashRouter} from 'react-router-dom';
 import Knowtex from "./Knowtex"
 import Home from "./Home"
 import ResponsiveRedesign from './ResponsiveRedesign';
@@ -17,7 +17,7 @@ import Development from "./Development"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />}/>
           <Route index element={<Home />} />
@@ -29,7 +29,7 @@ function App() {
           <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     // <div>
     // <NavBar/>
     // <div class="about">
