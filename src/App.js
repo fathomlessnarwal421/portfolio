@@ -17,7 +17,7 @@ import Development from "./Development"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />}/>
           {/* <Route index element={<Home />} /> */}
@@ -29,7 +29,7 @@ function App() {
           <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     // <div>
     // <NavBar/>
     // <div class="about">
