@@ -162,8 +162,8 @@ function Knowtex() {
   <div class="info-div">
     <h2>User Testing</h2>
     <p>Using the feedback we received during our mockup crit, we iterated on the design of our high-fidelity mockup. Our final draft can be found 
-      <a href="https://www.figma.com/proto/oMWi69NQH8sjUstxIuPn8l/Iterative-Design---Knowtex?node-id=113%3A487&scaling=min-zoom&page-id=113%3A42&starting-point-node-id=113%3A487">here</a>.
-      We then had test users try out our interface through a <a href="https://www.usertesting.com/">remote user testing service</a>
+      <a href="https://www.figma.com/proto/oMWi69NQH8sjUstxIuPn8l/Iterative-Design---Knowtex?node-id=113%3A487&scaling=min-zoom&page-id=113%3A42&starting-point-node-id=113%3A487"> here</a>.
+      We then had test users try out our interface through a <a href="https://www.usertesting.com/">remote user testing service. </a>
       Our overall task was to have the user replicate a typical workflow by creating a new record page for a patient. The testing instructions presented to the user were
       <div>
         <br/>

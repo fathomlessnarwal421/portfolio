@@ -105,7 +105,7 @@ function ResponsiveRedesign() {
         <div class="info-div">
         <h2>High-Fidelity Prototyping</h2>
         <p>Link to the High-Fidelity Prototypes completed in Figma can be found 
-            <a href="https://www.figma.com/file/QceBYSpflMxzRis01zHJlY/Books-on-the-Square?node-id=5%3A63">here</a>.
+            <a href="https://www.figma.com/file/QceBYSpflMxzRis01zHJlY/Books-on-the-Square?node-id=5%3A63"> here. </a>
             Included are 3 different prototypes, one for each screen size (mobile, tablet, and desktop). With each 
             prototype key design elements that make the website responsive have been annotated. The most important design elements 
             are the 3 primary columns in the body of the website that become rows when the screen size is made smaller, in the phone or table 
